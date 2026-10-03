@@ -134,6 +134,10 @@ The dashboard helps users:
 
 ---
 
+## 📊 Dashboard
+<img width="1167" height="657" alt="dashboard ss" src="https://github.com/user-attachments/assets/fb3d0bce-670e-4a51-9ca7-ed245a174206" />
+
+
 ## 📁 Project Files
 
 ```text
