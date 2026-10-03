@@ -146,7 +146,7 @@ Student-Performance-Analysis-Dashboard/
 
 ### `.pbix` File
 
-The `.pbix` file contains the complete Power BI report, including the dataset, data model, DAX measures, and dashboard visualizations.
+The `Shravani61 PBI Project.pbix` file contains the complete Power BI report, including the dataset, data model, DAX measures, and dashboard visualizations.
 
 ---
 
@@ -154,11 +154,23 @@ The `.pbix` file contains the complete Power BI report, including the dataset, d
 
 1. Download or clone this repository.
 2. Install **Microsoft Power BI Desktop**.
-3. Open the `.pbix` file.
-4. Explore the interactive dashboard.
-5. Use the available visualizations and filters to analyse student performance.
-
+3. Open Shravani61 PBI Project.pbix in Power BI Desktop.
+4. Select one or more departments in the Department slicer to filter the page.
+5. Read the KPI cards for the headline figures of the selection.
+6. Click a grade, category, or bar in any chart to cross-filter the other visuals, and click it again to clear the selection.
+7. Hover over a chart element to see its exact value in the tooltip.
+Note: the file was saved with a Department filter applied, so the values shown on first opening reflect that selection. Clear the slicer to see all departments.
 ---
+
+# What the Dashboard Helps to Show
+The dashboard is designed to help the viewer answer questions such as:
+•	What is the average total score and the overall pass rate for the selected department?
+•	Which grade performs best and which performs worst?
+•	How many students fall into each grade and each result category?
+•	Does a higher parents’ education level go with better student results?
+•	Do grades with higher attendance or more study hours also have higher average scores?
+The actual values depend on the data and on the Department selection, and should be read from the live report in Power BI Desktop. This document does not state findings that were not read from the data.
+
 
 ## 🎓 Project Purpose
 
@@ -176,6 +188,6 @@ Data Science Student
 
 ## ⭐ Conclusion
 
-The **Student Performance Analysis Dashboard** demonstrates how Power BI can be used to transform raw student data into an interactive and easy-to-understand visual report. It provides a consolidated view of important academic indicators and helps users explore student performance through data-driven visualizations.
+The **Student Performance Analysis Dashboard** presents academic information on a single interactive page. KPI cards give the headline results, the donut and column charts show how students are spread across grades and result categories, the stacked bar chart links results to parental education, and the scatter chart compares grades by attendance, study hours, and average score. The Department slicer and cross-filtering let the viewer explore the data, and the dark gradient design keeps the page clear and consistent.
 
 
